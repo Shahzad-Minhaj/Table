@@ -1,0 +1,101 @@
+
+/* light mode*/
+* {
+    border-spacing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+
+}
+
+header {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+
+
+}
+
+main 
+{
+    background-color: lightgray;
+    border-color: lightgray;
+    padding: 0;
+    text-align: center;
+
+}
+footer{text-align: center;}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 20px, 20px;
+}
+
+button {
+    margin-left: 574px;
+
+    background-color: black;
+
+
+    border-radius: 4px;
+
+}
+
+#a1 {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 14px 25px
+    
+}
+#btn{
+    margin-left: 574px;
+
+    background-color: white;
+
+
+    border-radius: 4px;
+}
+#a2{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 14px 25px
+}
+
+img {
+    width: 175px;
+    margin-left: 161px;
+}
+
+/*dark theme */
+#des {
+    background-color: rgb(40, 40, 40)
+}
+
+#des,main {
+    margin: 0;
+}
+
+.line {
+    color: white;
+}
+
+
+th,td, #light{
+    border: 1px solid black;
+    
+}
+.t2{
+    border: 1px solid white;
+    color: white;
+}
+
+
+.h101 {
+    background-color: rgb(33, 33, 33);
+}
