@@ -31,7 +31,8 @@ footer{text-align: center;}
 #tab1, td, th {
     border-collapse: collapse;
     border: 1px solid black;
-    padding: 20px, 20px;
+    width: 75%;
+    margin: 0 auto;
 }
 /*button in lightmode settings*/
 button {
@@ -71,6 +72,8 @@ img {
     padding: 20px, 20px;
     color: white;
     margin: 0;
+    width: 75%;
+    margin: 0 auto;
 }
 /*background color of footer*/
 .h101 {
