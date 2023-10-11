@@ -9,15 +9,12 @@
 /* all the paragraphs to be in center*/
 p {
     text-align: center;
-
 }
 /* Header design*/
 header {
     background-color: white;
     display: flex;
     padding: 10px;
-
-
 }
 /*main design*/
 main 
@@ -26,13 +23,12 @@ main
     border-color: lightgray;
     padding: 0;
     text-align: center;
-
 }
 /*footer design*/
 footer{text-align: center;}
 
-/*table design*/
-table {
+/*table-light design*/
+#tab1, td, th {
     border-collapse: collapse;
     border: 1px solid black;
     padding: 20px, 20px;
@@ -40,14 +36,11 @@ table {
 /*button in lightmode settings*/
 button {
     margin-left: 574px;
-
     background-color: black;
-
-
     border-radius: 4px;
 
 }
-/*linking lightmode to darkmode anchor*/
+/*linking lightmode to darkmode using anchor*/
 #a1 {
     color: white;
     font-weight: bold;
@@ -60,47 +53,41 @@ img {
     width: 175px;
     margin-left: 161px;
 }
-
-/* border colors*/
-th,td, #light{
-    border: 1px solid black;
-    
-}
-
 /*dark theme */
 /*Header background*/
 #des {
+
     background-color: rgb(40, 40, 40)
 }
-/*main and footer background*/
-#des,main {
-    margin: 0;
-}
-/*white text of top statement and copyrights*/
+/*making white text for top statement and copyrights in darkmode for visibility*/
 .line {
     color: white;
 }
 
-/*white color to border and data of the table*/
-.t2{
+/*white color to border, data and designing of table*/
+.t2, #tab2{
+    border-collapse: collapse;
     border: 1px solid white;
+    padding: 20px, 20px;
     color: white;
+    margin: 0;
 }
-
-/*background of footer*/
+/*background color of footer*/
 .h101 {
     background-color: rgb(33, 33, 33);
 }
-
 /*setting of button in darkmode*/
 #btn{
     margin-left: 574px;
     background-color: white;
     border-radius: 4px;
 }
+/*setting anchor tags in the button*/
 #a2{
     color: black;
     font-weight: bold;
     text-decoration: none;
     padding: 14px 25px
 }
+
+/*domain name: mytable006.surge.sh*/
